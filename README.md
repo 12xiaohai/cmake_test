@@ -23,7 +23,7 @@
 
 写代码前要创建必要的目录用于管理代码 可以用 tree /f 命令查看项目树
 
-![image-20250418170428044](..\image\image-20250418170428044.png)
+![image-20250418170428044](../image/image-20250418170428044.png)
 
 * include 用于放头文件
 * src 用于放源文件
@@ -208,7 +208,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 
 或者 cd到build目录下 输入 cmake .. 然后输入 make 同样可以
 
-![image-20250418173127010](image\image-20250418173127010.png)
+![image-20250418173127010](image/image-20250418173127010.png)
 
 ![image-20250418173158857](image\image-20250418173158857.png)
 
