@@ -23,7 +23,7 @@
 
 写代码前要创建必要的目录用于管理代码 可以用 tree /f 命令查看项目树
 
-![image-20250418170428044](C:\Users\admin\Desktop\cmake_test\image\image-20250418170428044.png)
+![image-20250418170428044](image\image-20250418170428044.png)
 
 * include 用于放头文件
 * src 用于放源文件
@@ -34,7 +34,7 @@
 
 ctrl +shift + p 输入cmake 选择 CMake:Build 选择构建工具 我这里选择 GCC
 
-![image-20250418170143116](C:\Users\admin\Desktop\cmake_test\image\image-20250418170143116.png)
+![image-20250418170143116](image\image-20250418170143116.png)
 
 退出代码为0代表构建成功
 
@@ -208,21 +208,21 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/bin)
 
 或者 cd到build目录下 输入 cmake .. 然后输入 make 同样可以
 
-![image-20250418173127010](C:\Users\admin\Desktop\cmake_test\image\image-20250418173127010.png)
+![image-20250418173127010](image\image-20250418173127010.png)
 
-![image-20250418173158857](C:\Users\admin\Desktop\cmake_test\image\image-20250418173158857.png)
+![image-20250418173158857](image\image-20250418173158857.png)
 
 同样退出代码为 0 代表构建成功
 
 点击运行即可自动执行 bin 目录下的main.exe文件
 
-![image-20250418173323822](C:\Users\admin\Desktop\cmake_test\image\image-20250418173323822.png)
+![image-20250418173323822](image\image-20250418173323822.png)
 
 ## 推送代码
 
 写好代码后即可把本地的代码推送到github上去 在此之前选择git bash 终端
 
-![image-20250418173743490](C:\Users\admin\Desktop\cmake_test\image\image-20250418173743490.png)
+![image-20250418173743490](image\image-20250418173743490.png)
 
 ### git 命令介绍
 
@@ -272,10 +272,10 @@ git push
 
 > 在推送之前最好把cmake的构建过程的文件给添加到忽略文件里 包括 build 和 bin文件夹
 
-![image-20250418175108461](C:\Users\admin\Desktop\cmake_test\image\image-20250418175108461.png)
+![image-20250418175108461](image\image-20250418175108461.png)
 
 刷新仓库
 
-![image-20250418175216527](C:\Users\admin\Desktop\cmake_test\image\image-20250418175216527.png)
+![image-20250418175216527](image\image-20250418175216527.png)
 
 ## 完结
